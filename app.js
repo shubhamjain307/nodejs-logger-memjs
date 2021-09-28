@@ -20,8 +20,8 @@ const logConfiguration = {
 const logger = winston.createLogger(logConfiguration)
 
 const client = memjs.Client.create('127.0.0.1:11211', {
-    username: 'root',
-    password: 'redhat@123'
+    username: '',//username
+    password: '' // memcache password 
   });    
 
 let userDetailCollection 
